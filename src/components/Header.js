@@ -1,6 +1,7 @@
 import React from "react";
 import face from "./img/f.jpg"
 
+
 console.log(face)
 
 export default function Header() {

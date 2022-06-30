@@ -7,10 +7,50 @@
 }
 
 .main-container{
-  background-color: black;
+  background-color: #23252C;
   color: white;
   width: fit-content;
-  padding: 2em;
   margin: auto;
+  margin-top: 3em;
   text-align: center;
+  border-radius: 0.5em;
+  margin-bottom: 3em;
+}
+
+.header .main-img{
+  width: 100%;
+  padding: 0%;
+  border-radius: 0.5em 0.5em 0em 0em;
+  margin-bottom: 1.5em;
+}
+
+.header .name{
+  font-size: 2.5em;
+  color: #edf2f4;
+  font-weight: bolder;
+}
+.header .prof{
+  font-size: 1em;
+  margin-top: 0.1em;
+  font-weight: bolder;
+  color: #fb8500;
+  margin-bottom: 0.8em;
+}
+.header .web{
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+.header .btn{
+  font-size: 2em;
+  padding: 0.1em 3em 0.1em 3em;
+  border-radius: 0.3em;
+  background-color: #edf2f4;
+  border: hidden;
+  transition: all 0.5s;
+  margin-bottom: 3em;
+}
+.header .btn:hover{
+  box-shadow: #f48c06 0px 2px 15px;
+  background-color: #23252C; 
+  color: #edf2f4;
 }
