@@ -5,6 +5,9 @@
   margin: 0%;
   padding: 0%;
 }
+body{
+  background-color: #f8f9fa;
+}
 
 .main-container{
   background-color: #23252C;
@@ -15,6 +18,7 @@
   text-align: center;
   border-radius: 0.5em;
   margin-bottom: 3em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .header .main-img{
@@ -47,10 +51,32 @@
   background-color: #edf2f4;
   border: hidden;
   transition: all 0.5s;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 .header .btn:hover{
   box-shadow: #f48c06 0px 2px 15px;
   background-color: #23252C; 
   color: #edf2f4;
+}
+
+.main-content{
+  text-align: left;
+  padding: 3.5em;
+}
+
+.main-content h2{
+  margin-top: 2em;
+}
+
+.foot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #001524;
+  padding-top: 2em;
+}
+.foot img{
+  height: 50px;
+  margin-bottom: 2em;
+  cursor: pointer;
 }
